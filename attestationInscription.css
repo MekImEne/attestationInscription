@@ -1,0 +1,149 @@
+.entete {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.fond {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.arTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: #3f6381;
+  font-weight: bold;
+  margin: 20 0 0 0;
+  padding: 0;
+}
+
+.frTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #3f6381;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+.frSubTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #3f6381;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 20 0 70 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  background-image: url("./bg.JPG");
+  background-repeat: no-repeat;
+  height: 3508px;
+  width: 2480px;
+}
+
+.bordedBlock {
+  border: solid 4px #818181;
+  height: auto;
+  padding: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 45px;
+}
+
+.frLabel {
+  font-size: 40px;
+  color: #818181;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.arLabel {
+  font-size: 40px;
+  color: #818181;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.information {
+  font-size: 45px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.blockTitle {
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+}
+
+.rowTwoItems {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.item {
+  text-align: center;
+}
+
+.rowThreeItems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.rowFourItems {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.lastPart {
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.infoItemTitle {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.infoItem {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.qrcode {
+    text-align: right;
+    font-size: 50px;
+}

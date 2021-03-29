@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="attestationInscription.css" />
+    <title>Attestation d'inscription</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="entete" src="./entete.JPG" alt="anemHeader" />
+      </header>
+      <h1 class="arTitle">شهادة تسجيل طالب العمل</h1>
+      <h2 class="frTitle">Attestation d'inscription</h2>
+      <h1 class="frSubTitle">Demandeur d'emploi</h1>
+
+      <div class="bordedBlock">
+        <div class="rowTwoItems">
+          <p class="frLabel item">N° Demandeur :</p>
+          <p class="information item">{numDemandeur}</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Date Inscription :</p>
+          <p class="information">{dateInscription}</p>
+          <p class="arLabel">: تاريخ التسجيل</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Agence d'affiliation :</p>
+          <p class="information">{agenceAffiliation}</p>
+          <p class="arLabel">: وكالة الإنتساب</p>
+        </div>
+      </div>
+
+      <div class="bordedBlock">
+        <div class="rowFourItems">
+          <p class="frLabel">Nom :</p>
+          <p class="information">{nomFr}</p>
+          <p class="information">{nomAr}</p>
+          <p class="arLabel">: اللقب</p>
+        </div>
+        <div class="rowFourItems">
+          <p class="frLabel">Prénom :</p>
+          <p class="information">{prenomFr}</p>
+          <p class="information">{prenomAr}</p>
+          <p class="arLabel">: الإسم</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Date de Naissance :</p>
+          <p class="information">{dateNaissance}</p>
+          <p class="arLabel">: تاريخ الميلاد</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Lieu de Naissance :</p>
+          <p class="information">{lieuNaissance}</p>
+          <p class="arLabel">: مكان الميلاد</p>
+        </div>
+        <div class="rowTwoItems">
+          <p class="frLabel">N° de téléphone :</p>
+          <p class="information">{numTel}</p>
+        </div>
+      </div>
+
+      <h1 class="blockTitle">Profil</h1>
+      <div class="bordedBlock">
+        <div class="rowThreeItems">
+          <p class="frLabel">Métier Principal :</p>
+          <p class="information">{metierPrincipal}</p>
+          <p class="arLabel">: المهنة المطلوبة</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Métier Alternatif :</p>
+          <p class="information">{metierAlternatif}</p>
+          <p class="arLabel">: المهنة البديلة</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Diplômes et Spécialités :</p>
+          <p class="information">{diplome} / {specialites}</p>
+          <p class="arLabel">: شهادات التخصص</p>
+        </div>
+      </div>
+
+      <h1 class="blockTitle">Informations</h1>
+      <div class="bordedBlock">
+        <div class="rowThreeItems">
+          <p class="frLabel">Date de la dernière Revalidation :</p>
+          <p class="information">{dateDerniereValidation}</p>
+          <p class="arLabel">: تاريخ آخر تجديد</p>
+        </div>
+        <div class="rowThreeItems">
+          <p class="frLabel">Date d'expiration Demande :</p>
+          <p class="information">{dateExpiration}</p>
+          <p class="arLabel">: تاريخ إلغاء الطلب</p>
+        </div>
+      </div>
+
+      <div class="lastPart">
+        <div class="rowTwoItems">
+          <div>
+            <div class="info">
+              <p class="infoItemTitle">Imprimé le :</p>
+              <p class="infoItem">{dateImpression}</p>
+            </div>
+            <div class="info">
+              <p class="infoItemTitle">Par :</p>
+              <p class="infoItem">{impriment}</p>
+            </div>
+          </div>
+          <div class="qrcode">{qrImage}</div>
+        </div>
+      </div>
+
+      <footer>
+        <img class="footer" src="./footer.JPG" alt="anemHeader" />
+      </footer>
+    </div>
+  </body>
+</html>
